@@ -1,10 +1,16 @@
 
 out/
-gradle/
-.gradle/
 
-gradlew
-gradlew.bat
+### Gradle ###
+
+.gradle/
+gradle/gradle
+gradle/build
+gradle/src
+gradle/build.gradle
+gradle/gradlew
+gradle/gradlew.bat
+gradle/settings.gradle
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
