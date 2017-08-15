@@ -1,4 +1,8 @@
-# kk
+# KK Project
 Kotlin Sample
 
-Adding more ...
+## Kotlin
+
+## Gradle
+
+## Intellij
