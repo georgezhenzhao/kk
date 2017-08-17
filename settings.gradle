@@ -1,2 +1,3 @@
 rootProject.name = 'KK'
 
+rootProject.buildFileName='build.gradle'
