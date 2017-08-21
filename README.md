@@ -6,6 +6,7 @@
 
 ## Kotlin
 
+ - ### [kotlin command line](https://kotlinlang.org/docs/tutorials/command-line.html)
 
 ## Gradle
 
@@ -14,4 +15,7 @@
     $ ./gradlew bootRun
 
 ## Intellij
+
+  - kotlin+JVM
+  - Gradle
 
