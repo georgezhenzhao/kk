@@ -1,0 +1,35 @@
+server:
+  port: 9999
+  compression:
+    enabled: true
+    min-response-size: 1
+  connection-timeout: 60000
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    multipart:
+      max-request-size: 7Mb
+      max-file-size: 7Mb
+  mvc:
+    dispatch-options-request: true
+    favicon:
+      enabled: true
+  messages:
+    basename: messages
+    cache-seconds: -1
+    encoding: UTF-8
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: password
+  sessions: stateless
+  enable-csrf: false
+management:
+  context-path: /admin
